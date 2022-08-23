@@ -20,7 +20,7 @@ function Navbar() {
               <a href="#">Contact</a>
             </div>
             <div className="button">
-              <button>connect wallet</button>
+              <button>Connect Wallet</button>
             </div>
           </div>
         </div>

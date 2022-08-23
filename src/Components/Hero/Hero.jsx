@@ -15,11 +15,11 @@ function Hero() {
 
         <div className="hero">
           <div className="about">
-            <h1>Bet and Win Today!</h1>
-            <h1>Sports Betting on Aptos Blockchain Under Development</h1>
+            <h1>Predict and Win Today!</h1>
+            <h1>Sports Prediction on Avalanche Blockchain Under Development.</h1>
             <p>
-              The fastest, easiest way to bet on sports.NBA, Tennis & Soccer,
-              Choose on which team to bet and win
+              The fastest, easiest way to predict on sports: NBA, Tennis, &amp; Soccer.
+              Choose on which team to Predict and Win!
             </p>
             <div className="button">
               <button>Connect Wallet</button>
