@@ -1,0 +1,45 @@
+.details__container {
+    // position: relative;
+    width: 100vw;
+
+    .container{
+        width: 80%;
+        margin: auto;
+        background-color: #0D102F;
+        padding: 50px;
+        border-radius: 20px;
+    
+        .details {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            gap: 100px;
+            .coin {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                .detail {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+            .winner {
+                display: flex;
+                align-items: center;
+                    gap: 20px;
+
+            }
+            .online_player {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+    
+        }
+    
+    }
+
+
+}

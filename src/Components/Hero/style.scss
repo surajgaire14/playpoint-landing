@@ -1,0 +1,110 @@
+.blob {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 8vh;
+  left: 20vw;
+  animation-duration: 10000ms;
+  animation-name: spin;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  @keyframes spin {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+.blob1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50vh;
+    left: 10px;
+    animation-name: ripple;
+    animation-duration: 5000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    @keyframes ripple {
+        from {
+            transform: translate(0,0);
+        }
+        to {
+            transform: translate(5%,10%);
+        }
+    }
+
+}
+
+.blob2 {
+    position: absolute;
+    top: 82vh;
+    animation-name: ripple1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5000ms;
+
+    @keyframes ripple1 {
+        from {
+            transform: translate(0,5%);
+        }
+        to {
+            transform: translate(5%,-10%);
+        }
+    }
+}
+
+
+.hero__container {
+  width: 100vw;
+  .container {
+    width: 80%;
+    margin: 15vh auto;
+
+    .hero {
+      width: 100%;
+      display: flex;
+      gap: 15vw;
+      .about {
+        width: 50%;
+        h1:nth-child(1) {
+          color: #41cd7d;
+          font-weight: 500;
+        }
+        h1:nth-child(2) {
+          font-weight: 800;
+          line-height: 1.5;
+          font-size: 3.5em;
+        }
+        p {
+          font-size: 1.5em;
+          line-height: 1.5;
+        }
+        .button {
+          border-radius: 30px;
+          padding: 7px;
+          width: 9vw;
+          border: 1px solid #4f2c9f;
+          button {
+            width: 100%;
+            background-color: #571ce0;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            color: #fff;
+            font-size: 1.2em;
+            cursor: pointer;
+            transform: 0.3s all ease-in-out;
+            &:hover {
+              border-color: #6543b3;
+            }
+          }
+        }
+      }
+    }
+  }
+}
